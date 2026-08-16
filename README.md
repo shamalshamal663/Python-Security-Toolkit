@@ -23,7 +23,8 @@ python-security-toolkit/
 └── payload_and_auth/
     ├── token_generator.py        # Automated Session Token Generator (random, time)
     ├── wordlist_builder.py       # Custom Targeted Wordlist Compiler (sys, random, open "w")
-    └── brute_defender.py         # Rate-Limited Credential & Lockout Defender
+    └── auth_auditor.py           # An IAM privilege  and security posture auditor that verify user role ,enforces 
+                                  # Multi Factor Authentication (MFA),and look out for account exceeding failed login threshold 
 ```
 
 ---
