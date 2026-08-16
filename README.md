@@ -73,6 +73,8 @@ python-security-toolkit/
 * **`brute_defender.py`**
   * **Description:** Authentication threshold monitor that simulates wordlist evaluations, tracks failed login attempts, and triggers an automated firewall lockout.
 
+* **'auth_auditor.py'**
+  * **Description:** IAM privilege and security posture auditor that verify user role ,enforces Multi Factor Authentication(MFA) compilance ,and lock out account exceeding failed login threshold.
 ---
 
 ## 💻 Setup & Requirements
