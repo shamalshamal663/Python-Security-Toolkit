@@ -1,2 +1,0 @@
-ALERT:Failed root login attempt on port 22
-CRITICAL:Unauthorized file modified in /etc/passwd
